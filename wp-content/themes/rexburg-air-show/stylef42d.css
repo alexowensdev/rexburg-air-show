@@ -1,0 +1,38 @@
+/*
+Theme Name: Rexburg Air Show
+Version: 1.0
+Description: A child theme of Divi
+Author: dowen@hangarmarketing.com
+Template: Divi
+*/
+
+@import url("../Divi/style.css");
+@import url("https://use.typekit.net/ztl7nsx.css");
+
+h1{
+font-family: headline-gothic-atf-rough-n1, sans-serif;
+  transform: rotate(-5deg)
+             skew(-5deg);
+  line-height: .9em;
+}
+
+#hero h2, #hero h4{
+   transform: rotate(-5deg)
+             skew(-5deg); 
+}
+
+h2, h3, h4{
+  font-family: roc-grotesk-extrawide, sans-serif;
+}
+
+body, p{
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+@media (min-width:981px) and (max-width:1074px) {
+  h2 {
+    font-size: 18px !important;
+  }
+}
